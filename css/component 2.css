@@ -214,18 +214,22 @@ button.trigger span::before {
 	transition-property: color;
 }
 
-.intro-effect-fadeout:not(.notrans) .codrops-tops,
 .intro-effect-fadeout:not(.notrans) .header p,
 .intro-effect-fadeout:not(.notrans) .content > div {
 	-webkit-transition-property: -webkit-transform, opacity;
 	transition-property: transform, opacity;
 }
 
+.intro-effect-fadeout:not(.notrans) .codrops-top {
+	-webkit-transition-property: opacity;
+	transition: opacity;
+}
+
 .intro-effect-fadeout:not(.notrans) .bg-img,
 .intro-effect-fadeout:not(.notrans) .bg-img::after,
-.intro-effect-fadeout:not(.notrans) .codrops-tops,
 .intro-effect-fadeout:not(.notrans) .header h1,
 .intro-effect-fadeout:not(.notrans) .header p,
+.intro-effect-fadeout:not(.notrans) .codrops-top,
 .intro-effect-fadeout:not(.notrans) .content > div {
 	-webkit-transition-duration: 0.7s;
 	transition-duration: 0.7s;
@@ -269,14 +273,14 @@ button.trigger span::before {
 
 .intro-effect-fadeout .codrops-top {
 	opacity: 0;
-	-webkit-transform: translateY(150px);
-	transform: translateY(150px);
+	/*-webkit-transform: opacity, translateY(150px);
+	transform: opacity, translateY(150px);*/
 }
 
 .intro-effect-fadeout.modify .codrops-top{
 	opacity: 1;
-	-webkit-transform: translateY(0px);
-	transform: translateY(0px);
+	/*-webkit-transform: translateY(0px);
+	transform: translateY(0px);*/
 }
 
 .intro-effect-fadeout .header p {
