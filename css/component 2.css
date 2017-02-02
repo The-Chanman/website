@@ -273,14 +273,10 @@ button.trigger span::before {
 
 .intro-effect-fadeout .codrops-top {
 	opacity: 0;
-	/*-webkit-transform: opacity, translateY(150px);
-	transform: opacity, translateY(150px);*/
 }
 
 .intro-effect-fadeout.modify .codrops-top{
 	opacity: 1;
-	/*-webkit-transform: translateY(0px);
-	transform: translateY(0px);*/
 }
 
 .intro-effect-fadeout .header p {
