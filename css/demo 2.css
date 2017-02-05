@@ -47,7 +47,7 @@ a:hover, a:focus {
 /* Top Navigation Style */
 .codrops-top {
 	width: 100%;
-	position: absolute;
+	position: relative;
 	top: 0;
 	left: 0;
 	text-transform: uppercase;
@@ -60,7 +60,7 @@ a:hover, a:focus {
 
 .codrops-top a {
 	display: inline-block;
-	color: #fff;
+	color: #111;
 	text-decoration: none;
 	-webkit-transform: translateY(20px);
 	transform: translateY(20px);
@@ -95,12 +95,11 @@ a:hover, a:focus {
 	content: "\e004";
 }
 
-.codrops-demos {
+.eric-navs {
 	padding: 0 0 1em;
-	position: relative;
 }
 
-.codrops-demos a {
+.eric-navs a {
 	font-weight: 800;
 	text-transform: uppercase;
 	font-size: 0.6em;
@@ -113,13 +112,13 @@ a:hover, a:focus {
 	color: #cf4a5c;
 }
 
-.codrops-demos a:hover,
-.codrops-demos a.current-demo {
+.eric-navs a:hover,
+.eric-navs a.current-demo {
 	opacity: 1;
 	color: #69606b;
 }
 
-.codrops-demos a.current-demo {
+.eric-navs a.current-demo {
 	border-bottom: 3px solid #69606b;
 }
 
