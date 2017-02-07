@@ -109,7 +109,7 @@ button.trigger {
 	border: none;
 	background: transparent;
 	color: transparent;
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: bold;
 	cursor: pointer;
 }
@@ -173,7 +173,7 @@ button.trigger span::after {
 /* Conent */
 .content {
 	margin: 0 auto;
-	padding: 0 0 3em;
+	padding: 0 0 1em;
 }
 
 .content > div:not(.title) {
@@ -238,16 +238,10 @@ button.trigger span::after {
 	transition-property: transform, opacity;
 }
 
-/*.intro-effect-fadeout:not(.notrans) .codrops-top {
-	-webkit-transition-property: opacity;
-	transition: opacity;
-}*/
-
 .intro-effect-fadeout:not(.notrans) .bg-img,
 .intro-effect-fadeout:not(.notrans) .bg-img::after,
 .intro-effect-fadeout:not(.notrans) .header h1,
 .intro-effect-fadeout:not(.notrans) .header p,
-.intro-effect-fadeout:not(.notrans) .codrops-top,
 .intro-effect-fadeout:not(.notrans) .eric-navs,
 .intro-effect-fadeout:not(.notrans) .content > div {
 	-webkit-transition-duration: 0.7s;
@@ -293,14 +287,6 @@ button.trigger span::after {
 .intro-effect-fadeout.modify .header h1,
 .intro-effect-fadeout .header p {
 	color: #514753;
-}
-
-.intro-effect-fadeout .codrops-top {
-	opacity: 0;
-}
-
-.intro-effect-fadeout.modify .codrops-top{
-	opacity: 1;
 }
 
 .intro-effect-fadeout .header p {
