@@ -23,25 +23,12 @@
 
 /* grid determination */
 .grid__item {
-	width: 320px;
+	width: 30vw;
 	padding: 10px;
 }
 
 .grid__item--current {
 	opacity: 0 !important;
-}
-
-.gridbutton {
-	/*font-weight: bold;*/
-	font-size: 22px;
-	margin: 0;
-	padding: .25em 1em;
-	color: #fff;
-	background: #cf4a5c;
-	border-radius: 1em;
-	border: none;
-	white-space: nowrap;
-	font-weight: normal;
 }
 
 .img-wrap {
@@ -305,7 +292,8 @@
 
 .details .icon {
 	margin-right: 5px;
-	color: #cf4a5c;
+	/*color: #cf4a5c;*/
+	color: #3f51b5;
 	/*color: #77d45b;*/
 }
 
@@ -318,7 +306,8 @@
 	padding: 0;
 	cursor: pointer;
 	vertical-align: top;
-	color: #cf4a5c;
+	/*color: #cf4a5c;*/
+	color: #3f51b5;
 	/*color: #6bd68a;*/
 	border: none;
 	background: none;
@@ -326,7 +315,8 @@
 
 .action:hover,
 .action:focus {
-	color: #cf4a5c;
+	/*color: #cf4a5c;*/
+	color: #3f51b5;
 	/*color: #6bd68a;*/
 	outline: none;
 }
@@ -359,12 +349,37 @@
 	color: transparent;
 }
 
-@media screen and (max-width: 40em) {
+@media screen and (min-width: 0em) {
 	.description--preview h3 {
-		font-size: 0.5em;
+		font-size: 0.8em;
 	}
 	.description--preview p,
 	.details {
 		display: none;
+	}
+	.grid__item {
+		width: 95vw;
+		padding: 10px;
+	}
+}
+
+@media screen and (min-width: 50em) {
+	.description--preview h3 {
+		font-size: 0.8em;
+	}
+	.description--preview p,
+	.details {
+		display: none;
+	}
+	.grid__item {
+		width: 45vw;
+		padding: 10px;
+	}
+}
+
+@media screen and (min-width: 80em) {
+	.grid__item {
+		width: 31vw;
+		padding: 10px;
 	}
 }
