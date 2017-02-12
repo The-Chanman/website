@@ -15,6 +15,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style2.css" />
 		<link rel="stylesheet" type="text/css" href="css/buttons.css" />
 		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/hovering.css" />
 		<script src="js/modernizr-custom.js"></script>
 		<!--[if IE]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -52,13 +53,24 @@
 			<div class=".grid--content">
 				<div class="grid">
 					<div class="grid__item" data-size="1280x1280">
-						<a href="img/grid/energy_story.jpg" class="img-wrap disabled"><img src="img/grid/energy_story.jpg" alt="energy_story" />
-							<div class="description description--grid">
-								<h3><strong>How will we illuminate in the future?</strong></h3>
-								<p>An article exploring the design priciples that will be crucial in designing the future of the energy grid. These were all developed while I was working at IDEO CoLab<em>&mdash; Eric Chan</em></p>
-								<button onclick="location.href='https://medium.com/ideo-colab/how-will-we-illuminate-in-the-future-2587908706a3';" class="button button--shikoba button--text-thick button--border-medium button--text-upper button--size-s"><i class="button__icon fa fa-eye"></i><span>See this future</span></button>
-							</div>
-						</a>
+						<figure class="effect-julia">
+							<img src="img/grid/energy_story.jpg" alt="energy_story"/>
+							<figcaption>
+								<h2>A future of <span>Energy</span></h2>
+								<div>
+									<p>Present and Future of Energy</p>
+									<p>Writing</p>
+									<p>2016</p>
+								</div>
+								<a href="img/grid/energy_story.jpg" class="img-wrap disabled"><img src="img/grid/energy_story.jpg" alt="energy_story" />
+									<div class="description description--grid">
+										<h3><strong>How will we illuminate in the future?</strong></h3>
+										<p>An article exploring the design priciples that will be crucial in designing the future of the energy grid. These were all developed while I was working at IDEO CoLab<em>&mdash; Eric Chan</em></p>
+										<button onclick="location.href='https://medium.com/ideo-colab/how-will-we-illuminate-in-the-future-2587908706a3';" class="button button--shikoba button--text-thick button--border-medium button--text-upper button--size-s"><i class="button__icon fa fa-eye"></i><span>See this future</span></button>
+									</div>
+								</a>
+							</figcaption>
+						</figure>
 					</div>
 					<div class="grid__item" data-size="853x853">
 						<a href="img/grid/solar_panel_prototype.png" class="img-wrap"><img src="img/grid/solar_panel_prototype.png" alt="solar_panel_prototype" />

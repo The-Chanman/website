@@ -355,7 +355,7 @@
 	}
 	.description--preview p,
 	.details {
-		display: none;
+		/*display: none;*/
 	}
 	.grid__item {
 		width: 95vw;
@@ -369,7 +369,7 @@
 	}
 	.description--preview p,
 	.details {
-		display: none;
+		/*display: none;*/
 	}
 	.grid__item {
 		width: 45vw;
