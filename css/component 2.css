@@ -22,7 +22,7 @@ html, body, .container, .header {
 }
 
 .bg-img {
-	position: absolute;;
+	position: absolute;
 	overflow: hidden;
 	top: 0;
 	left: 0;
