@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,800|Lora:400italic|Playfair+Display:700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,800|Lora:400italic);
 
 *,
 *:after,
@@ -20,7 +20,7 @@
 
 body {
 	background: #fff;
-	color: #69606b;
+	color: #1f1c20;
 	font-family: 'Raleway', Arial, sans-serif;
 	width: 100vw;
 	-webkit-font-smoothing: antialiased;
@@ -37,7 +37,7 @@ a {
 
 a:hover,
 a:focus {
-	color: #69606b;
+	color: #1f1c20;
 }
 
 button:focus {
@@ -58,6 +58,10 @@ button:focus {
 	font-size: 22px;
 	line-height: 1.5;
 	text-rendering: optimizeLegibility;
+}
+
+.text-header{
+		font-family: 'Poppins', sans-serif;
 }
 
 /* Top Navigation Style */
@@ -84,7 +88,7 @@ button:focus {
 .eric-navs a:hover,
 .eric-navs a.current-page {
 	opacity: 1;
-	color: #69606b;
+	color: #1f1c20;
 }
 
 .eric-navs a.current-page {
