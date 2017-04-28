@@ -82,12 +82,12 @@ button:focus {
 }
 
 .eric-navs a:hover,
-.eric-navs a.current-demo {
+.eric-navs a.current-page {
 	opacity: 1;
 	color: #69606b;
 }
 
-.eric-navs a.current-demo {
+.eric-navs a.current-page {
 	border-bottom: 3px solid #69606b;
 }
 

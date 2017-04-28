@@ -168,11 +168,11 @@ a:focus {
 	margin: 0 0.5em;
 }
 
-.eric-navs a.current-demo {
+.eric-navs a.current-page {
 	color: #fff;
 }
 
-.eric-navs a.current-demo::before {
+.eric-navs a.current-page::before {
 	content: '';
 	position: absolute;
 	border: 2px solid #fff;
