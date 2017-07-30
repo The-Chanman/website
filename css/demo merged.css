@@ -61,7 +61,7 @@ button:focus {
 }
 
 .text-header{
-		font-family: 'Poppins', sans-serif;
+		font-family: 'Oswald', sans-serif;
 }
 
 /* Top Navigation Style */
@@ -82,7 +82,7 @@ button:focus {
 	white-space: nowrap;
 	/*color: #cf4a5c;*/
 	color: #3f51b5;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 .eric-navs a:hover,
