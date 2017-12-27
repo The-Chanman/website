@@ -1,0 +1,10 @@
+// 1. Import the initial variables
+@import "../sass/utilities/initial-variables";
+@import "../sass/utilities/functions";
+
+.navbar-dropdown{
+  background-color: transparent
+}
+
+// 6. Import the rest of Bulma
+@import "../bulma";
