@@ -7289,7 +7289,8 @@ a.navbar-link.is-active {
             transform: translateY(0);
   }
   .navbar-link::after {
-    border: 1px solid #3273dc;
+    /* border: 1px solid #3273dc; */
+    border: 2px solid whitesmoke;
     border-right: 0;
     border-top: 0;
     content: " ";
