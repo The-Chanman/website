@@ -38,3 +38,7 @@ html,body {
 .navbar-dropdown.is-left {
   left: auto;
 }
+
+.huge {
+  font-size: 4em
+}
