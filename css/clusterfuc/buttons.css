@@ -1,0 +1,137 @@
+
+/* Common button styles */
+.button {
+	float: left !important;
+	min-width: 150px !important;
+	max-width: 250px !important;
+	display: block !important;
+	margin: 1em !important;
+	padding: 1em 2em !important;
+	border: none !important;
+	background: none !important;
+	color: inherit !important;
+	vertical-align: middle !important;
+	position: relative !important;
+	z-index: 1 !important;
+	-webkit-backface-visibility: hidden !important;
+	-moz-osx-font-smoothing: grayscale !important;
+	height: auto !important;
+}
+.button:focus {
+	outline: none !important;
+}
+.button > span {
+	vertical-align: middle !important;
+}
+
+.bg-1 .button {
+	color: #37474f !important;
+	border-color: #37474f !important;
+}
+.bg-2 .button {
+	color: #ECEFF1 !important;
+	border-color: #ECEFF1 !important;
+}
+.bg-3 .button {
+	color: #fff !important;
+	border-color: #fff !important;
+}
+
+/* Sizes */
+.button--size-s {
+	font-size: 14px !important;
+}
+.button--size-m {
+	font-size: 16px !important;
+}
+.button--size-l {
+	font-size: 18px !important;
+}
+
+/* Typography and Roundedness */
+.button--text-upper {
+	letter-spacing: 2px !important;
+	text-transform: uppercase !important;
+}
+.button--text-thin {
+	font-weight: 300 !important;
+}
+.button--text-medium {
+	font-weight: 500 !important;
+}
+.button--text-thick {
+	font-weight: 600 !important;
+}
+.button--round-s {
+	border-radius: 5px !important;
+}
+.button--round-m {
+	border-radius: 15px !important;
+}
+.button--round-l {
+	border-radius: 40px !important;
+}
+
+/* Borders */
+.button--border-thin {
+	border: 1px solid !important;
+}
+.button--border-medium {
+	border: 2px solid !important;
+}
+.button--border-thick {
+	border: 3px solid !important;
+}
+
+/* Shikoba */
+.button.button--shikoba {
+	padding: 1em 30px 1em 50px !important;
+	overflow: hidden !important;
+	background: #fff !important;
+	color: #37474f !important;
+	border-color: #37474f !important;
+	-webkit-transition: background-color 0.3s, border-color 0.3s, color 0.3s !important;
+	transition: background-color 0.3s, border-color 0.3s, color 0.3s !important;
+}
+.button--shikoba.button--inverted {
+	color: #fff !important;
+	background: #7986cb !important;
+}
+.button--shikoba > span {
+	display: inline-block !important;
+	-webkit-transform: translate3d(-10px, 0, 0) !important;
+	transform: translate3d(-10px, 0, 0) !important;
+	-webkit-transition: -webkit-transform 0.3s !important;
+	transition: transform 0.3s !important;
+	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1) !important;
+	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1) !important;
+}
+.button--shikoba .button__icon {
+	position: absolute !important;
+	left: 20px !important;
+	font-size: 18px !important;
+	-webkit-transform: translate3d(-40px, 2.5em, 0) !important;
+	transform: translate3d(-40px, 2.5em, 0) !important;
+	-webkit-transition: -webkit-transform 0.3s !important;
+	transition: transform 0.3s !important;
+	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1) !important;
+	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1) !important;
+}
+.button--shikoba:hover .button__icon,
+.button--shikoba:hover > span {
+	-webkit-transform: translate3d(0, 0, 0) !important;
+	transform: translate3d(0, 0, 0) !important;
+}
+.button--shikoba:hover {
+	/*background: #cf4a5c !important;*/
+	/*border-color: #cf4a5c !important;*/
+	background: #3f51b5 !important;
+	border-color: #3f51b5 !important;
+	color: #fff !important;
+}
+
+@media screen and (max-width: 40em) {
+	.button--shikoba .button__icon {
+		font-size: 2em !important;
+	}
+}
