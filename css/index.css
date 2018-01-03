@@ -1,5 +1,10 @@
 html,body {
-  font-family: 'Open Sans', serif;
+  background: #EFF3F4;
+  font-family: 'Poppins', serif;
+}
+.footer {
+  background: #EFF3F4;
+  padding: 1.5em 1.5em 1.5em 1.5em;
 }
 .hero.is-info {
   background: linear-gradient(
@@ -10,6 +15,39 @@ html,body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.hero.is-about {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ) no-repeat center 30% fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.is-about-me-image{
+  background: url('../img/Eric VR.jpg')no-repeat center 25% scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50em;
+}
+@media screen and (min-width: 769px){
+  .is-about-me-image{
+    background: linear-gradient(
+        90deg,
+        #EFF3F4,
+        rgba(0, 0, 0, 0) 30%,
+        rgba(0, 0, 0, 0)
+      ), url('../img/Eric VR.jpg')no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 50em;
+  }
 }
 .hero.is-info .navbar-menu {
     background-color: transparent;
@@ -34,11 +72,31 @@ html,body {
     background: rgba(0, 0, 0, 0.5);
     /* opacity: 0.5 */
   }
+  .huge {
+    font-size: 3em
+  }
+  .large {
+    font-size: 1.5em
+  }
 }
 .navbar-dropdown.is-left {
   left: auto;
 }
 
-.huge {
-  font-size: 4em
+
+/*  Hero Hero  */
+
+.box.cta {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+}
+
+.sandbox {
+  padding: 2rem 0;
+}
+.tile.notification {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
