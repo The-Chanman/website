@@ -100,3 +100,7 @@ html,body {
   justify-content: center;
   flex-direction: column;
 }
+
+#head-title {
+  color: rgba(200, 255, 200, 1);
+}

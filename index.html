@@ -62,13 +62,32 @@
    <div class="hero-body">
      <div class="container has-text-centered">
        <div class="column is-6 is-offset-3">
-         <h1 class="title huge">
-           Nothing is impossible, only inconceivable
+         <h1 class="title huge has-text-left">
+           My name is Eric.
+         </h1>
+         <h1 class="title has-text-left">
+           I believe that nothing is impossible, only inconceivable.
+         </h1>
+         <h1 class="title has-text-left">
+           I am a <span id="head-title"></span>
          </h1>
        </div>
      </div>
    </div>
   </section>
   <script src = "./js/index.js" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/typed.js"></script>
+
+  <script>
+    $(function(){
+      $("#head-title").typed({
+        strings: ["Explorer.^50", "Designer.^50", "Engineer.^50", "Software Designer.^50","Public Speaker.^50", "System Thinker.^50", "Harvard Push off.^50", "Emerging Technology Prototyper.^50", "Futurist.^500"],
+        typeSpeed: 100,
+        loop: true,
+        startDelay: 100
+      });
+    });
+  </script>
   </body>
 </html>
