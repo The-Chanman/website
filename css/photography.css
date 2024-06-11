@@ -9,7 +9,8 @@
 	--color-text: #fff;
 	--color-bg: #000;
 	--color-link: #fff;
-	--color-link-hover: #fff;
+	--color-link-current: #fff;
+	--color-link-hover: #44C0C9;
 }
 
 body {
@@ -190,11 +191,16 @@ body #cdawrap {
 
 }
 
-
 .frame__toc {
 	grid-area: toc;
 	display: flex;
   	column-gap: 1rem;
+}
+
+.frame__toc--current {
+	font-weight: 700;
+	opacity: 1;
+	color: var(--color-link-current);
 }
 
 .frame__back {
@@ -229,7 +235,7 @@ a.frame__demo {
 a.frame__demo--current {
 	font-weight: 700;
 	opacity: 1;
-	color: var(--color-link-hover);
+	color: var(--color-link-current);
 }
 
 .slides {
