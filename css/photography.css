@@ -193,6 +193,8 @@ body #cdawrap {
 
 .frame__toc {
 	grid-area: toc;
+	display: flex;
+  	column-gap: 1rem;
 }
 
 .frame__back {
@@ -348,7 +350,7 @@ a.frame__demo--current {
 		height: 100vh; 
 		grid-gap: 2rem;
 		align-content: space-between;
-		grid-template-columns: auto auto 1fr;
+		grid-template-columns: 1fr auto 1fr;
 		grid-template-rows: auto auto;
 		grid-template-areas: 'title toc demos' 'sponsor ... nav ';
 	}
