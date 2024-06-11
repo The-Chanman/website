@@ -350,7 +350,7 @@ a.frame__demo--current {
 		align-content: space-between;
 		grid-template-columns: auto auto 1fr;
 		grid-template-rows: auto auto;
-		grid-template-areas: 'title toc demos' 'sponsor ... ... nav ';
+		grid-template-areas: 'title toc demos' 'sponsor ... nav ';
 	}
 	.frame__demos {
 		justify-self: end;
