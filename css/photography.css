@@ -180,12 +180,14 @@ body #cdawrap {
 
 .frame strong {
 	font-weight: 700;
+	font-family: "DM Sans", sans-serif;
 }
 
 .frame__title-main {
 	font-size: inherit;
 	margin: 0;
 	font-weight: inherit;
+
 }
 
 .frame__back {
