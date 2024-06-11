@@ -182,7 +182,6 @@ body #cdawrap {
 
 .frame strong {
 	font-weight: 700;
-	font-family: "DM Sans", sans-serif;
 }
 
 .frame__title-main {
@@ -231,6 +230,7 @@ a.frame__toc__link--current:hover {
 	grid-template-columns: repeat(3,auto);
 	column-gap: 1rem;
 	row-gap: 0.5rem;
+	font-family: "DM Sans", sans-serif;
 }
 
 .frame__demos span {
@@ -242,7 +242,7 @@ a.frame__demo {
 	font-size: 1rem;
 	text-decoration: none;
 	opacity: 0.75;
-	font-family: "DM Sans", sans-serif;
+	font-family: "Source Serif 4", serif;
 }
 
 a.frame__demo:hover {
@@ -348,7 +348,6 @@ a.frame__demo--current {
 .slides-nav::before {
 	content: 'scroll / drag';
 	margin-right: 2rem;
-	font-family: "Source Serif 4", serif;
 }
 
 .slides-nav__item {
