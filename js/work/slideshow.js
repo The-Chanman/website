@@ -95,7 +95,7 @@ export class Slideshow {
 		gsap
 		.timeline({
 			defaults: {
-				duration: 1,
+				duration: 2,
 				ease: 'power3.inOut',
 			},
 			onStart: () => {
