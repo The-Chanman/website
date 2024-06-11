@@ -192,13 +192,14 @@ body #cdawrap {
 .frame__demos {
 	grid-area: demos;
 	display: grid;
-	grid-template-columns: repeat(8,auto);
+	grid-template-columns: repeat(3,auto);
 	column-gap: 1rem;
 	row-gap: 0.5rem;
 }
 
 .frame__demos span {
-	grid-column: 1 / span 8;
+	grid-column: 1 / span 3;
+	
 }
 
 a.frame__demo {
@@ -206,7 +207,7 @@ a.frame__demo {
 	font-size: 1rem;
 	text-decoration: none;
 	opacity: 0.5;
-	font-family: "anonymous-pro", monospace;
+	font-family: "DM Sans", sans-serif;
 }
 
 a.frame__demo--current {
