@@ -150,7 +150,7 @@ a:focus-visible {
 	color: var(--color-title);
 	padding: 2rem;
 	display: grid;
-	grid-template-columns: auto 1fr;
+	grid-template-columns: auto;
 	grid-template-rows: auto auto auto auto 1fr;
 	grid-template-areas: 'title title' 'toc toc' 'demos demos' 'sponsor sponsor' 'nav nav';
 	justify-content: start;
@@ -348,9 +348,9 @@ a.frame__demo--current {
 		height: 100vh; 
 		grid-gap: 2rem;
 		align-content: space-between;
-		grid-template-columns: auto auto auto 1fr;
+		grid-template-columns: auto auto 1fr;
 		grid-template-rows: auto auto;
-		grid-template-areas: 'title toc back prev demos' 'sponsor ... ... nav ';
+		grid-template-areas: 'title toc demos' 'sponsor ... ... nav ';
 	}
 	.frame__demos {
 		justify-self: end;
