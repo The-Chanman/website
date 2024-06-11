@@ -41,6 +41,13 @@ body {
     font-style: normal;
 }
 
+.source-serif-4-body {
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* Variable DM Sans use  */
 /* weight: Can use a value from 100 to 1000 */
 
@@ -308,6 +315,7 @@ a.frame__demo--current {
 .slides-nav::before {
 	content: 'scroll / drag';
 	margin-right: 2rem;
+	font-family: "Source Serif 4", serif;
 }
 
 .slides-nav__item {
