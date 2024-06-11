@@ -197,7 +197,17 @@ body #cdawrap {
   	column-gap: 1rem;
 }
 
-.frame__toc--current {
+a.frame__toc__link {
+	font-weight: 700;
+	opacity: 1;
+	transition: color 0.3s;
+}
+
+a.frame__toc:hover{
+	color: var(--color-link-hover);
+}
+
+a.frame__toc__link--current {
 	font-weight: 700;
 	opacity: 1;
 	color: var(--color-link-current);
