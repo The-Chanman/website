@@ -10,7 +10,7 @@
 	--color-bg: #000;
 	--color-link: #fff;
 	--color-link-current: #fff;
-	--color-link-hover: #44C0C9;
+	--color-link-hover: #ED8923;
 }
 
 body {
@@ -100,6 +100,7 @@ a {
 	color: var(--color-link);
 	outline: none;
 	cursor: pointer;
+	transition: all 0.5s ease;
 }
 
 a:hover {
@@ -199,12 +200,10 @@ body #cdawrap {
 
 a.frame__toc__link {
 	font-weight: 400;
-	transition: all 0.5s ease;
 }
 
-a.frame__toc__link:hover{
-	text-decoration: underline;
-	text-decoration-color: var(--color-link-hover);
+a.frame__toc__link:hover {
+	font-weight: 700;
 }
 
 a.frame__toc__link--current {
@@ -236,15 +235,19 @@ a.frame__toc__link--current:hover {
 
 .frame__demos span {
 	grid-column: 1 / span 3;
-	
 }
 
 a.frame__demo {
 	font-weight: 400;
 	font-size: 1rem;
 	text-decoration: none;
-	opacity: 0.5;
+	opacity: 0.75;
 	font-family: "DM Sans", sans-serif;
+}
+
+a.frame__demo:hover {
+	opacity: 1;
+	font-weight: 700;
 }
 
 a.frame__demo--current {
