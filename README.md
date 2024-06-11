@@ -1,5 +1,5 @@
 # website
-Quick website from scratch
+Quick website
 
 Links:
 http://www.coindesk.com/nasdaq-blockchain-solar-power-market/
