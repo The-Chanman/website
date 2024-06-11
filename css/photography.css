@@ -195,14 +195,6 @@ body #cdawrap {
 	grid-area: toc;
 }
 
-.frame__back {
-	grid-area: back;
-}
-
-.frame__prev {
-	grid-area: prev;
-}
-
 .frame__demos {
 	grid-area: demos;
 	display: grid;
@@ -350,7 +342,7 @@ a.frame__demo--current {
 		align-content: space-between;
 		grid-template-columns: auto auto auto 1fr;
 		grid-template-rows: auto auto;
-		grid-template-areas: 'title back prev demos' 'sponsor ... ... nav ';
+		grid-template-areas: 'title toc demos' 'sponsor ... ... nav ';
 	}
 	.frame__demos {
 		justify-self: end;
