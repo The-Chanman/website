@@ -199,25 +199,22 @@ body #cdawrap {
 
 a.frame__toc__link {
 	font-weight: 400;
-	opacity: 1;
 	transition: all 0.5s ease;
 }
 
-a.frame__toc:hover{
-	color: var(--color-link-hover);
-	font-weight: 700;
+a.frame__toc__link:hover{
+	text-decoration: underline;
+	text-decoration-color: var(--color-link-hover);
 }
 
 a.frame__toc__link--current {
-	font-weight: 400;
-	opacity: 1;
-	color: var(--color-link-current);
+	text-decoration: underline;
+	text-decoration-color: var(--color-link-current);
 }
 
-a.frame__toc__link--current {
-	font-weight: 700;
-	opacity: 1;
-	color: var(--color-link-hover);
+a.frame__toc__link--current:hover {
+	text-decoration: underline;
+	text-decoration-color: var(--color-link-hover);
 }
 
 
