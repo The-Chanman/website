@@ -145,7 +145,7 @@ a:focus-visible {
 	display: grid;
 	grid-template-columns: auto 1fr;
 	grid-template-rows: auto auto auto auto 1fr;
-	grid-template-areas: 'title title' 'toc toc' 'locations locations' 'bl bl' 'nav nav';
+	grid-template-areas: 'title title' 'prev back' 'demos demos' 'sponsor sponsor' 'nav nav';
 	justify-content: start;
 	align-content: start;
 	align-items: start;
