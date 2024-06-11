@@ -143,9 +143,9 @@ a:focus-visible {
 	color: var(--color-title);
 	padding: 2rem;
 	display: grid;
-	grid-template-columns: auto auto 1fr;
+	grid-template-columns: auto 1fr;
 	grid-template-rows: auto auto auto auto 1fr;
-	grid-template-areas: 'title title' 'toc toc' 'locations locations' 'caption caption' 'nav nav';
+	grid-template-areas: 'title title' 'toc toc' 'locations locations' 'bl bl' 'nav nav';
 	justify-content: start;
 	align-content: start;
 	align-items: start;
