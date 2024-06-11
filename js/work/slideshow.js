@@ -95,38 +95,39 @@ export class Slideshow {
 		gsap
 		.timeline({
 			defaults: {
-				duration: 2,
-				ease: 'power3.inOut',
+				duration: 1.5, 
+				ease: 'power4.inOut'
 			},
 			onStart: () => {
 				// Add class to the upcoming slide to mark it as current
 				this.DOM.slides[this.current].classList.add('slide--current');
-				gsap.set(upcomingSlide, {zIndex: 99});
 			},
 			onComplete: () => {
 				// Remove class from the previous slide to unmark it as current
                 this.DOM.slides[previous].classList.remove('slide--current');
-				gsap.set(upcomingSlide, {zIndex: 1})
-				// Reset animation flag
+                // Reset animation flag
                 this.isAnimating = false;
 			}
 		})
 		// Defining animation steps
 		.addLabel('start', 0)
 		.to(currentSlide, {
-			xPercent: -direction*15,
-			yPercent: -direction*15,
-			autoAlpha: 0
+			yPercent: -direction*100
 		}, 'start')
-
+		.to(currentInner, {
+			yPercent: direction*30,
+		}, 'start')
 		.fromTo(upcomingSlide, {
-			autoAlpha: 1,
-			xPercent: direction*100,
 			yPercent: direction*100
 		}, {
-			xPercent: 0,
 			yPercent: 0
 		}, 'start')
+		.fromTo(upcomingInner, {
+			yPercent: -direction*30
+			//yPercent: 0
+		}, {
+			yPercent: 0
+		}, 'start');
 	}
 
 }
