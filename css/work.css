@@ -6,11 +6,15 @@
 
 :root {
 	font-size: 16px;
-	--color-text: #fff;
-	--color-bg: #1b1b1b;
+	--color-text: #F6F9F9;
+  --color-text-dark: #131416;
+  --color-text-grey: #D9DCDE;
+	--color-bg: #131416;
+  --color-bg-grey: #212427;
+  --color-bg-light: #F6F9F9;
   --color-highlight-1:#44C0C9;
   --color-highlight-2:#ED8923;
-	--color-link: #fff;
+	--color-link: #F6F9F9;
 	--color-link-current: #44C0C9;
 	--color-link-hover: #ED8923;
 }
@@ -76,7 +80,6 @@ body {
   display: grid;
   grid-template-columns: auto 1fr;
 	grid-gap: 4rem;
-  margin-bottom: 2rem;
 }
 
 .title__container {
@@ -203,18 +206,45 @@ a.nav__link__current:hover {
   position: relative;
   height: fit-content;
   align-items: start;
-  
 }
 
 .work__intro {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
 
+.work__title {
+  background-color: var(--color-bg-grey);
+  color: var(--color-highlight-1);
+  width: fit-content;
+  height: fit-content;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  /* text-decoration: underline; */
+  /* text-decoration-color: var(--color-highlight-1); */
+}
+
+.work__description {
+  background-color: var(--color-bg-grey);
+  color: var(--color-text-grey);
+  width: fit-content;
+  height: fit-content;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 
 .work__media {
   height: auto;
   width: 100%;
   opacity: 1;
-  box-shadow: 1rem 1rem 0 #44C0C9;
+  border: var(--color-bg) 4px solid;
+  box-shadow: 1rem 1rem 0 var(--color-highlight-1);
 }
 
 .work__media > img  {
@@ -225,11 +255,40 @@ a.nav__link__current:hover {
   display: block;
 }
 
+@media screen and (max-width: 50em) { 
+  .intro__content {
+    grid-template-columns: auto;
+    grid-gap: 1rem;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
 
 
-@media screen and (min-width: 93em) {
+  .description {
+    font-weight: 600;
+    font-size: 1.3rem;
+    height: fit-content;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-left: var(--color-highlight-1) 2px solid;
+  }
+  
+  .bodies_of_work__wrapper {
+    grid-row-gap: 8rem;
+  }
 
-  /* .wrapper {
-    max-width: 1200px;
-  } */
+  .work__wrapper.left {
+    grid-template-columns: 6fr 6fr;
+    grid-template-areas: "workcontent workcontent";    
+    margin-left: -1rem;
+  }
+  
+  .work__wrapper.right {
+    grid-template-columns: 6fr 6fr;
+    grid-template-areas: "workcontent workcontent";
+    margin-left: -1rem;
+  }
 }

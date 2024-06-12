@@ -6,9 +6,9 @@
 
 :root {
 	font-size: 16px;
-	--color-text: #fff;
+	--color-text: #F6F9F9;
 	--color-bg: #000;
-	--color-link: #fff;
+	--color-link: #F6F9F9;
 	--color-link-current: #fff;
 	--color-link-current-underline: #44C0C9;
 	--color-link-hover: #ED8923;
