@@ -10,6 +10,7 @@
 	--color-bg: #000;
 	--color-link: #fff;
 	--color-link-current: #fff;
+	--color-link-current-underline: #44C0C9;
 	--color-link-hover: #ED8923;
 }
 
@@ -207,12 +208,16 @@ a.frame__toc__link:hover {
 
 a.frame__toc__link--current {
 	text-decoration: underline;
-	text-decoration-color: var(--color-link-current);
+	text-decoration-color: var(--color-link-current-underline);
+	text-decoration-thickness: 2px;
+	text-decoration-skip-ink: none;
+
 }
 
 a.frame__toc__link--current:hover {
 	text-decoration: underline;
 	text-decoration-color: var(--color-link-hover);
+	text-decoration-thickness: 2px;
 }
 
 
