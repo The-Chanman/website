@@ -124,5 +124,5 @@ html,body {
 }
 
 #head-title {
-  color: rgba(160, 255, 160, 1);
+  color: var(--color-highlight-1);
 }
