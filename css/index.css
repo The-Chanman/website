@@ -1,48 +1,52 @@
 :root {
-	font-size: 16px;
-	--color-text: #F6F9F9;
+  font-size: 16px;
+  --color-text: #F6F9F9;
   --color-text-dark: #131416;
   --color-text-grey: #D9DCDE;
-	--color-bg: #131416;
+  --color-bg: #131416;
   --color-bg-grey: #212427;
   --color-bg-light: #F6F9F9;
-  --color-highlight-1:#44C0C9;
-  --color-highlight-2:#ED8923;
-	--color-link: #F6F9F9;
-	--color-link-current: #44C0C9;
-	--color-link-hover: #ED8923;
+  --color-highlight-1: #44C0C9;
+  --color-highlight-2: #ED8923;
+  --color-link: #F6F9F9;
+  --color-link-current: #44C0C9;
+  --color-link-hover: #ED8923;
 }
 
-html,body {
+html,
+body {
   background: #EFF3F4;
   font-family: 'Poppins', serif;
 }
+
 .footer {
   background: #EFF3F4;
   padding: 1.5em 1.5em 1.5em 1.5em;
 }
+
 .hero {
   background-color: var(--color-bg);
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ), url('../img/IMG_20161217_132125\ 1.png') no-repeat center center fixed;
+}
+
+.hero.landing {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url('../img/IMG_20161217_132125\ 1.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
 .hero.is-about {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ) no-repeat center 30% fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)) no-repeat center 30% fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-.is-about-me-image{
+
+.is-about-me-image {
   background: url('../img/Eric VR.jpg')no-repeat center 25% scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -51,14 +55,12 @@ html,body {
   height: 50em;
 }
 
-@media screen and (min-width: 769px){
-  .is-about-me-image{
-    background: linear-gradient(
-        90deg,
+@media screen and (min-width: 769px) {
+  .is-about-me-image {
+    background: linear-gradient(90deg,
         #EFF3F4,
         rgba(0, 0, 0, 0) 30%,
-        rgba(0, 0, 0, 0)
-      ), url('../img/Eric VR.jpg')no-repeat center center scroll;
+        rgba(0, 0, 0, 0)), url('../img/Eric VR.jpg')no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -68,38 +70,52 @@ html,body {
 }
 
 .hero.is-info .navbar-menu {
-    background-color: transparent;
+  background-color: transparent;
 }
-.hero.is-info a.navbar-item:hover, .hero.is-info a.navbar-item.is-active, .hero.is-info .navbar-link:hover, .hero.is-info .navbar-link.is-active {
-    background-color: transparent;
-    color: #fff;
+
+.hero.is-info a.navbar-item:hover,
+.hero.is-info a.navbar-item.is-active,
+.hero.is-info .navbar-link:hover,
+.hero.is-info .navbar-link.is-active {
+  background-color: transparent;
+  color: #fff;
 }
-.hero .nav, .hero.is-success .nav {
+
+.hero .nav,
+.hero.is-success .nav {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
 .hero .subtitle {
   padding: 3rem 0;
   line-height: 1.5;
 }
-.hero.is-info .navbar-item, .hero.is-info .navbar-link {
-    color: rgba(255, 255, 255, 1);
+
+.hero.is-info .navbar-item,
+.hero.is-info .navbar-link {
+  color: rgba(255, 255, 255, 1);
 }
-@media screen and (min-width: 1024px){
+
+@media screen and (min-width: 1024px) {
   .navbar-dropdown.is-transparent {
     background: rgba(0, 0, 0, 0.5);
     /* opacity: 0.5 */
   }
+
   .huge {
     font-size: 3em
   }
+
   .large {
     font-size: 1.5em
   }
 }
+
 .navbar-dropdown.is-left {
   left: auto;
 }
+
 .navbar-item {
   font-family: 'Poppins', serif;
 }
@@ -117,6 +133,7 @@ html,body {
 .sandbox {
   padding: 2rem 0;
 }
+
 .tile.notification {
   display: flex;
   justify-content: center;
