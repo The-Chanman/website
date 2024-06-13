@@ -5144,7 +5144,7 @@ a.tag:hover {
 }
 
 .title {
-  color: #363636;
+  color: #D9DCDE;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125;
@@ -7085,7 +7085,7 @@ html.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #4a4a4a;
+  color: #F6F9F9;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 1rem;
@@ -7420,7 +7420,7 @@ a.navbar-link.is-active {
   }
   a.navbar-item.is-active,
   a.navbar-link.is-active {
-    color: #0a0a0a;
+    color: #44C0C9;
   }
   a.navbar-item.is-active:not(:hover),
   a.navbar-link.is-active:not(:hover) {
@@ -10328,7 +10328,7 @@ label.panel-block:hover {
 
 .hero.is-success .navbar-item,
 .hero.is-success .navbar-link {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 1);
 }
 
 .hero.is-success a.navbar-item:hover, .hero.is-success a.navbar-item.is-active,

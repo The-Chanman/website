@@ -1,74 +1,91 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Eric Chan</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/bulma.css">
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
-  </head>
-  <body>
-  <section class="hero is-info is-fullheight">
-   <div class="hero-head">
-     <nav class="navbar is-transparent">
-       <div class="container">
-         <div class="navbar-brand">
-           <a class="navbar-item" href="./index.html">
-             <img src="img/Logo/Chanman_-10.png" alt="Logo">
-           </a>
-           <span class="navbar-burger burger" data-target="navbarMenu">
-             <span></span>
-             <span></span>
-             <span></span>
-           </span>
-         </div>
-         <div id="navbarMenu" class="navbar-menu">
-           <div class="navbar-end">
-             <a class="navbar-item is-active" href="./index.html">
-               Home
-             </a>
-             <a class="navbar-item" href="./projects.html">
-               Projects
-             </a>
-             <a class="navbar-item" href="./about.html">
-               About Me
-             </a>
-           </div>
-         </div>
-       </div>
-     </nav>
-   </div>
-   <div class="hero-body">
-     <div class="container has-text-centered">
-       <div class="column is-6 is-offset-3">
-         <h1 class="title huge has-text-left">
-           My name is Eric.
-         </h1>
-         <h1 class="title has-text-left">
-           I believe that nothing is impossible, only inconceivable.
-         </h1>
-         <h1 class="title has-text-left">
-           I am <span id="head-title"></span>
-         </h1>
-       </div>
-     </div>
-   </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eric Chan - Creative Engineer</title>
+  <meta name="description" content="Showcase of work that Eric has done" />
+  <meta name="keywords"
+    content="eric chan,eric, chanman, design, engineering, innovation, tech, technologist, emerging technology, prototyping, design research" />
+  <meta name="author" content="Chanman" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto" rel="stylesheet">
+  <!--Favicon-->
+  <link rel="shortcut icon" href="../favicon.png">
+
+  <link rel="stylesheet" type="text/css" href="./css/bulma.css">
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+
+
+</head>
+
+<body>
+  <section class="hero is-fullheight">
+    <div class="hero-head">
+      <nav class="navbar is-transparent">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="./index.html">
+              <img src="img/Logo/Chanman_-10.png" alt="Logo">
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item is-active" href="./index.html">
+                Home
+              </a>
+              <a class="navbar-item" href="./projects.html">
+                Projects
+              </a>
+              <a href="https://drive.google.com/file/d/1tRaKVyaKepOLdNP6mEK-OUARcsTquOS_/view?usp=sharing"
+                target="_blank" class="navbar-item">
+                Resume ↗
+              </a>
+              <a class="navbar-item" href="./about.html">
+                About
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <div class="column is-6 is-offset-3">
+          <h1 class="title huge has-text-left">
+            My name is Eric.
+          </h1>
+          <h1 class="title has-text-left">
+            I believe that nothing is impossible, only inconceivable.
+          </h1>
+          <h1 class="title has-text-left">
+            I am <span id="head-title"></span>
+          </h1>
+        </div>
+      </div>
+    </div>
   </section>
-  <script src = "./js/index.js" type="text/javascript"></script>
+  <script src="./js/index.js" type="text/javascript"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="js/typed.js"></script>
 
   <script>
-    $(function(){
+    $(function () {
       $("#head-title").typed({
-        strings: ["an Explorer.^300", "an Interaction Designer.^300", "an Creative Engineer.^300", "a Software Designer.^300","a Public Speaker.^300", "a System Thinker.^300", "a Harvard Push off.^300", "an Emerging Technology Prototyper.^300", "a Futurist.^300"],
+        strings: ["an Explorer.^300", "an Interaction Designer.^300", "an Creative Engineer.^300", "a Software Designer.^300", "a Public Speaker.^300", "a System Thinker.^300", "a Harvard Push off.^300", "an Emerging Technology Prototyper.^300", "a Futurist.^300"],
         typeSpeed: 20,
         loop: true,
         startDelay: 1000
       });
     });
   </script>
-  </body>
+</body>
+
 </html>

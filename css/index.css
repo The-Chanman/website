@@ -1,3 +1,18 @@
+:root {
+	font-size: 16px;
+	--color-text: #F6F9F9;
+  --color-text-dark: #131416;
+  --color-text-grey: #D9DCDE;
+	--color-bg: #131416;
+  --color-bg-grey: #212427;
+  --color-bg-light: #F6F9F9;
+  --color-highlight-1:#44C0C9;
+  --color-highlight-2:#ED8923;
+	--color-link: #F6F9F9;
+	--color-link-current: #44C0C9;
+	--color-link-hover: #ED8923;
+}
+
 html,body {
   background: #EFF3F4;
   font-family: 'Poppins', serif;
@@ -6,15 +21,8 @@ html,body {
   background: #EFF3F4;
   padding: 1.5em 1.5em 1.5em 1.5em;
 }
-.hero.is-info {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ), url('https://unsplash.it/1200/900?random') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.hero {
+  background-color: var(--color-bg);
 }
 .hero.is-about {
   background: linear-gradient(
@@ -34,6 +42,7 @@ html,body {
   background-size: cover;
   height: 50em;
 }
+
 @media screen and (min-width: 769px){
   .is-about-me-image{
     background: linear-gradient(
@@ -49,6 +58,7 @@ html,body {
     height: 50em;
   }
 }
+
 .hero.is-info .navbar-menu {
     background-color: transparent;
 }
@@ -82,6 +92,10 @@ html,body {
 .navbar-dropdown.is-left {
   left: auto;
 }
+.navbar-item {
+  font-family: 'Poppins', serif;
+}
+
 
 
 /*  Hero Hero  */

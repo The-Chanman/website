@@ -1,21 +1,21 @@
 
 /* Common button styles */
 .button {
-	float: left !important;
-	min-width: 150px !important;
-	max-width: 250px !important;
-	display: block !important;
-	margin: 1em !important;
-	padding: 1em 2em !important;
-	border: none !important;
-	background: none !important;
-	color: inherit !important;
-	vertical-align: middle !important;
-	position: relative !important;
-	z-index: 1 !important;
-	-webkit-backface-visibility: hidden !important;
-	-moz-osx-font-smoothing: grayscale !important;
-	height: auto !important;
+	float: left;
+	min-width: 150px;
+	max-width: 250px;
+	padding: 1em 1.5em;
+	border: none;
+	background: none;
+	color: inherit;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	height: auto;
+	display: flex;
+
 }
 .button:focus {
 	outline: none !important;
@@ -83,9 +83,14 @@
 	border: 3px solid !important;
 }
 
+.helper {
+	display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
 /* Shikoba */
 .button.button--shikoba {
-	padding: 1em 30px 1em 50px !important;
 	overflow: hidden !important;
 	background: #fff !important;
 	color: #37474f !important;
@@ -107,8 +112,10 @@
 	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1) !important;
 }
 .button--shikoba .button__icon {
-	position: absolute !important;
-	left: 20px !important;
+	position: relative;
+	vertical-align: middle;
+	margin-left: -4px;
+    padding-right: 4px;
 	font-size: 18px !important;
 	-webkit-transform: translate3d(-40px, 2.5em, 0) !important;
 	transform: translate3d(-40px, 2.5em, 0) !important;
