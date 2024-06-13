@@ -143,3 +143,12 @@ body {
 #head-title {
   color: var(--color-highlight-1);
 }
+
+.contact-footer > a {
+  color: var(--color-bg-grey);
+  transition: all 0.3s;
+}
+
+.contact-footer > a:hover {
+  color: var(--color-highlight-2);
+}
