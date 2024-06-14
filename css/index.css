@@ -55,6 +55,45 @@ body {
   height: 50em;
 }
 
+.hero__image__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  display: grid;
+  z-index: 100;
+  pointer-events: none;
+  height: 100vh;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-template-areas: "header" "footer";
+  grid-gap: 1rem;
+  align-content: space-between;
+}
+
+.hero__image__overlay__footer {
+  grid-area: footer;
+  justify-self: end;
+  align-self: end;
+  align-items: center;
+}
+
+.caption__holder {
+  align-items: right;
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+}
+
+.caption__text {
+  color: var(--color-text-grey);
+  font-weight: 200;
+  font-size: 12px;
+  text-align: right;
+}
+
+
 @media screen and (min-width: 769px) {
   .is-about-me-image {
     background: linear-gradient(90deg,
@@ -149,11 +188,15 @@ body {
   color: var(--color-highlight-1);
 }
 
-.contact-footer > a {
+.contact-footer>a {
   color: var(--color-bg-grey);
   transition: all 0.3s;
 }
 
-.contact-footer > a:hover {
+.contact-footer>a:hover {
   color: var(--color-highlight-2);
+}
+
+.action {
+  color: var(--color-bg);
 }
