@@ -21,7 +21,6 @@ body {
     font-family: "Source Serif 4", serif;
 	font-family: "DM Sans", Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 	height: 100%;
 	overflow: hidden;
 }

@@ -31,26 +31,17 @@ body {
 .hero.landing {
   background: linear-gradient(rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)), url('../img/IMG_20161217_132125\ 1.png') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
 .hero.is-about {
   background: linear-gradient(rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)) no-repeat center 30% fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
 .is-about-me-image {
   background: url('../img/Eric VR.jpg')no-repeat center 25% scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   height: 50em;
 }
@@ -80,7 +71,6 @@ body {
 }
 
 .caption__holder {
-  align-items: right;
   display: flex;
   text-align: right;
   flex-direction: column;
@@ -99,9 +89,6 @@ body {
         #EFF3F4,
         rgba(0, 0, 0, 0) 30%,
         rgba(0, 0, 0, 0)), url('../img/Eric VR.jpg')no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     height: 50em;
   }
@@ -138,6 +125,31 @@ body {
 .travel__photography {
   text-decoration: line-through;
   /* background-color: var(--color-highlight-2); */
+}
+
+.contact-footer {
+	padding: 2rem 0;
+	text-align: center;
+	font-size: 1.5rem;
+	position: relative;
+  font-family: "Poppins", serif;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-footer a {
+	padding: 1rem 1rem;
+  margin-top: 2rem;
+}
+
+.contact-footer__links>a {
+  color: var(--color-bg-grey);
+  transition: all 0.3s;
+}
+
+.contact-footer__links>a:hover {
+  color: var(--color-highlight-2);
 }
 
 @media screen and (min-width: 1024px) {
@@ -185,15 +197,6 @@ body {
 
 #head-title {
   color: var(--color-highlight-1);
-}
-
-.contact-footer>a {
-  color: var(--color-bg-grey);
-  transition: all 0.3s;
-}
-
-.contact-footer>a:hover {
-  color: var(--color-highlight-2);
 }
 
 .action {

@@ -24,7 +24,6 @@ body {
 	font-family: 'Raleway', Arial, sans-serif;
 	width: 100vw;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 	overflow-x: hidden;
 }
 
