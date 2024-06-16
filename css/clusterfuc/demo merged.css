@@ -27,9 +27,8 @@ body {
 	overflow-x: hidden;
 }
 
-a {
+/* a {
 	outline: none;
-	/*color: #cf4a5c;*/
 	color: #3f51b5;
 	text-decoration: none;
 }
@@ -37,7 +36,7 @@ a {
 a:hover,
 a:focus {
 	color: #1f1c20;
-}
+} */
 
 button:focus {
 	outline: none;
