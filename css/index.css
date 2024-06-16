@@ -19,6 +19,21 @@ body {
   font-family: 'Poppins', serif;
 }
 
+a {
+  color: var(--color-highlight-1);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover {
+ color: var(--color-highlight-2);
+}
+
+.navbar-item.is-active:hover {
+  color: var(--color-highlight-2);
+}
+
 .footer {
   background: #EFF3F4;
   padding: 1.5em 1.5em 1.5em 1.5em;
